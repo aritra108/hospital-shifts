@@ -1,0 +1,117 @@
+.formPage {
+    padding: 20px;
+}
+
+.formPage__container {
+    margin: 0 auto;
+    margin-top: 10vh;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid var(--blue-60);
+    border-radius: 5px;
+}
+
+.formPage__container > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--blue-60);
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+/* Form Normal Fields */
+.formPage__labelField {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.formPage__labelField > *:first-child {
+    flex: 0.4;
+}
+
+.formPage__labelField > *:last-child {
+    flex: 0.6;
+}
+
+.formPage__labelField > p {
+    font-weight: 500;
+}
+
+.formPage__labelField > input,
+.formPage__labelField > select {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--blue-50);
+    font-size: 15px;
+}
+
+/* Form Weekday Container */
+.formPage__weekFieldContainer {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid var(--blue-10);
+}
+
+.formPage__weekFieldContainer > p {
+    font-weight: 500;
+}
+
+.formPage__weekFields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.formPage__weekField {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formPage__weekField > small {
+    margin-bottom: 3px;
+}
+
+/* Weekdays only */
+.formPage__weekdaysOnly {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.formPage__weekdaysOnly > p {
+    margin-left: 5px;
+}
+
+/* Submit Button */
+.formPage__addBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: auto;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: var(--blue-40);
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition: all 200ms ease-out;
+}
+
+.formPage__addBtn:hover {
+    background-color: var(--blue-30);
+}
+
+.formPage__addBtnIcon {
+    font-size: 21px !important;
+}
